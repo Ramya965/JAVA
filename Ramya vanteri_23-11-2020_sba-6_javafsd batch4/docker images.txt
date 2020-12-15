@@ -1,0 +1,44 @@
+docker is configured to use the default machine with IP 192.168.99.100
+For help getting started, check out the docs at https://docs.docker.com
+
+
+Start interactive shell
+-----------------------------for java images-----------------------------------
+Unknown+User@IN-5CG7470PG5 MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull openjdk
+Using default tag: latest
+latest: Pulling from library/openjdk
+Digest: sha256:2e5241c6a2eacb50fff84f13ee3ba51bbc91ed3c5d8a3afb4a30a1946a7605a0
+Status: Image is up to date for openjdk:latest
+
+------------------------------for ubuntu images-----------------------------
+Unknown+User@IN-5CG7470PG5 MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull ubuntu
+Using default tag: latest
+latest: Pulling from library/ubuntu
+6a5697faee43: Pull complete                                                                                             ba13d3bc422b: Pull complete                                                                                             a254829d9e55: Pull complete                                                                                             Digest: sha256:fff16eea1a8ae92867721d90c59a75652ea66d29c05294e6e2f898704bdb8cf1
+Status: Downloaded newer image for ubuntu:latest
+
+----------------------------for mysql images----------------------------------
+Unknown+User@IN-5CG7470PG5 MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull mysql
+Using default tag: latest
+latest: Pulling from library/mysql
+Digest: sha256:4bb2e81a40e9d0d59bd8e3dc2ba5e1f2197696f6de39a91e90798dd27299b093
+Status: Image is up to date for mysql:latest
+
+---------------------------for tomcat images--------------------------------
+Unknown+User@IN-5CG7470PG5 MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull tomcat
+Using default tag: latest
+latest: Pulling from library/tomcat
+Digest: sha256:a319b10d8729817c7ce0bcc2343a6f97711c7870395019340d96b6aafd6ccbea
+Status: Image is up to date for tomcat:latest
+
+-------------------------for node images------------------------------------
+Unknown+User@IN-5CG7470PG5 MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull node
+Using default tag: latest
+latest: Pulling from library/node
+7919f5b7d602: Pull complete                                                                                             0e107167dcc5: Pull complete                                                                                             66a456bba435: Pull complete                                                                                             5435318a0426: Pull complete                                                                                             8494dd328465: Pull complete                                                                                             3b01939c6506: Pull complete                                                                                             dcdfe2eaf597: Pull complete                                                                                             33e17b8abb03: Pull complete                                                                                             7d88992efa4b: Pull complete                                                                                             Digest: sha256:b0423b556aab2e51095a4e0d0a070e919ec9c31c6045ec6478f9a3f2004b4b5b
+Status: Downloaded newer image for node:latest
